@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import './App.css';
+
 function App() {
   const [user, setUser] = useState(null);
   const [computer, setComputer] = useState(null);
@@ -46,3 +47,4 @@ function App() {
 }
 
 export default App;
+
